@@ -1,22 +1,42 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
   "name": "YourPay API Docs",
-  "theme": {
-    "color": "#111111",
-    "font": "Inter",
-    "mode": "light"
+  "openapi": {
+    "url": "https://yourpay-one.vercel.app/docs/openapi.json"
   },
-  "openapi": "https://yourpay-one.vercel.app/docs/openapi.json",
   "colors": {
     "primary": "#111111"
   },
   "favicon": "/favicon.svg",
-  "navigation": [
-    {
-      "group": "Guides",
-      "pages": ["index", "getting-started", "webhooks"]
-    }
-  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "getting-started",
+              "webhooks"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "openapi"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
