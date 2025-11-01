@@ -10,7 +10,7 @@
   "navigation": [
     {
       "group": "Guides",
-      "pages": ["index", "getting-started", "webhooks"]
+      "pages": ["index", "getting-started", "quickstart", "webhooks", "development"]
     },
     {
       "group": "API Reference",
