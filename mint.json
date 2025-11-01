@@ -2,11 +2,7 @@
   "name": "YourPay API Docs",
   "logo": "/static/logo.svg",
   "openapi": "https://yourpay-one.vercel.app/docs/openapi.json",
-  "theme": {
-    "color": "#111111",
-    "font": "Inter",
-    "mode": "light"
-  },
+  "theme": "prism",
   "favicon": "/static/favicon.svg",
   "colors": {
     "primary": "#111111"
