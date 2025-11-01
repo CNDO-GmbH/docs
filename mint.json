@@ -11,22 +11,12 @@
   "colors": {
     "primary": "#111111"
   },
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": ["index", "getting-started", "webhooks"]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference"
-      }
-    ]
-  },
+  "navigation": [
+    {
+      "group": "Guides",
+      "pages": ["index", "getting-started", "webhooks"]
+    }
+  ],
   "navbar": {
     "links": [
       {
