@@ -11,10 +11,6 @@
     {
       "group": "Guides",
       "pages": ["index", "getting-started", "quickstart", "webhooks", "development"]
-    },
-    {
-      "group": "API Reference",
-      "pages": ["openapi"]
     }
   ],
   "navbar": {
