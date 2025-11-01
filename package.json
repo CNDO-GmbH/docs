@@ -1,0 +1,14 @@
+{
+  "name": "yourpay-api-docs",
+  "version": "1.0.0",
+  "description": "YourPay API Documentation",
+  "scripts": {
+    "dev": "mintlify dev",
+    "start": "mintlify dev",
+    "build": "mintlify build"
+  },
+  "devDependencies": {
+    "mintlify": "^3.0.0"
+  }
+}
+
