@@ -1,13 +1,13 @@
 {
   "name": "YourPay API Docs",
-  "logo": "/logo/light.svg",
+  "logo": "/static/logo.svg",
   "openapi": "https://yourpay-one.vercel.app/docs/openapi.json",
   "theme": {
     "color": "#111111",
     "font": "Inter",
     "mode": "light"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/static/favicon.svg",
   "colors": {
     "primary": "#111111"
   },
@@ -15,6 +15,10 @@
     {
       "group": "Guides",
       "pages": ["index", "getting-started", "webhooks"]
+    },
+    {
+      "group": "API Reference",
+      "pages": ["openapi"]
     }
   ],
   "navbar": {
